@@ -1,0 +1,30 @@
+/node_modules
+/vendor
+/.env
+/.env.*.php
+/.phpunit.result.cache
+
+# Laravel specific
+/public/storage
+/storage/*.key
+/storage/*.sqlite
+/storage/logs
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/framework/testing
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.lock
+
+# NPM
+yarn.lock
+npm-debug.log
